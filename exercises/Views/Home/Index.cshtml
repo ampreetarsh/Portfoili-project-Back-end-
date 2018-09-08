@@ -49,10 +49,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Resume</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -92,7 +92,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Languages and Skills</h2>
+                    <h2 class="section-heading">Skills and Projects</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -153,11 +153,8 @@
                         <img src="~/img/portfolio/thumbnails/Bugs.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Bug Tracker
                                 </div>
                             </div>
                         </div>
@@ -194,8 +191,8 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+                <h2>My Resume!</h2>
+                <a href="~/resume/arshResume.docx" class="btn btn-default btn-xl sr-button">Download Now!</a>
             </div>
         </div>
     </aside>
@@ -205,15 +202,15 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Get in touch!! Give me a call or send an email and I will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+                    <a href="tel://431-336-1124">call</a><p>431-336-1124</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">arshpreetkaur989@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -226,7 +223,6 @@
             <div class="modal-content modal-lg">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
                 </div>
                 <div class="modal-body">
                     <h2>Math Exercises</h2>
@@ -240,42 +236,41 @@
                     <div class="tab-content">
                         <div id="Math" class="tab-pane fade in active">
                             <h3>Math</h3>
-                            <p>Some Math Content</p>
                             <div class="row">
-                                <div class="col-md-12">Please Enetr 5 numbers</div>
+                                <div class="col-md-12">Please Enetr 5 numbers to calculate sum, average, minimum number, maximum number and product.</div>
                             </div>
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="row">
-                                        <div class="col-md-6">Enetr Number 1:</div>
+                                        <div class="col-md-6">Enter Number 1:</div>
                                         <div class="col-md-6">
-                                            <input id="num1" type="number" name="name" value="" />
+                                            <input id="num1" type="number" name="name"/>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-6">Enetr Number 2:</div>
+                                        <div class="col-md-6">Enter Number 2:</div>
                                         <div class="col-md-6">
-                                            <input id="num2" type="number" name="name" value="" />
+                                            <input id="num2" type="number" name="name" />
                                         </div>
                                     </div><div class="row">
-                                        <div class="col-md-6">Enetr Number 3:</div>
+                                        <div class="col-md-6">Enter Number 3:</div>
                                         <div class="col-md-6">
-                                            <input id="num3" type="number" name="name" value="" />
+                                            <input id="num3" type="number" name="name" />
                                         </div>
                                     </div><div class="row">
-                                        <div class="col-md-6">Enetr Number 4:</div>
+                                        <div class="col-md-6">Enter Number 4:</div>
                                         <div class="col-md-6">
-                                            <input id="num4" type="number" name="name" value="" />
+                                            <input id="num4" type="number" name="name" />
                                         </div>
                                     </div><div class="row">
-                                        <div class="col-md-6">Enetr Number 5:</div>
+                                        <div class="col-md-6">Enter Number 5:</div>
                                         <div class="col-md-6">
-                                            <input id="num5" type="number" name="name" value="" />
+                                            <input id="num5" type="number" name="name" />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <button id="btn">Calculate</button>
+                                            <button id="button1">Check it!</button>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-top:5px;">
@@ -285,7 +280,7 @@
                                     </div>
                                         <div id="codeMath" class="row">
                                             <pre class="brush: js">
-                                             $("#btn").click(function () {
+                                             $("#button1").click(function () {
                                              var num1 = Number($("#num1").val());
                                              var num2 = Number($("#num2").val());
                                              var num3 = Number($("#num3").val());
@@ -308,7 +303,7 @@
                                         </pre>
                                         </div>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-5 textArea">
                                     <div id="sum"></div>
                                     <div id="product"></div>
                                     <div id="average"></div>
@@ -323,18 +318,18 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="row">
-                                        <div class="col-md-6"> Please enter num1</div>
-                                        <div class="col-md-6"><input id="number1" type="number" name="name" value="" /></div>
+                                        <div class="col-md-6"> Please enter number1</div>
+                                        <div class="col-md-6"><input id="number1" type="number" name="name" /></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-6">  Please enter num2 </div>
+                                        <div class="col-md-6">  Please enter number2 </div>
                                         <div class="col-md-6">
-                                            <input id="number2" type="number" name="name" value="" />
+                                            <input id="number2" type="number" name="name" />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <button id="btn1"> Calculate</button>
+                                            <button id="btn1"> Check it!</button>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-top:5px;">
@@ -377,14 +372,14 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="row">
-                                        <div class="col-md-6">Please enter a number</div>
+                                        <div class="col-md-6">Please enter a number to calculate its factorial.</div>
                                         <div class="col-md-6">
-                                            <input id="num" type="number" name="name" value="" />
+                                            <input id="num" type="number" name="name" />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <button id="btnfact">Calculate</button>
+                                            <button id="buttonFactorial">Check it!</button>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-top:5px;">
@@ -392,9 +387,9 @@
                                             <button id="showFactorialCode">Show Code</button>
                                         </div>
                                     </div>
-                                    <div id="codeFactorial" class="row">
+                                    <div id="factorialCode" class="row">
                                         <pre class="brush: js">
-                                          $("#btnfact").click(function () {
+                                          $("#buttonFactorial").click(function () {
                                           var num = Number($("#num").val());
                                           var fact = 1;
                                           for (var i = num; i >= 1; i--) {
@@ -417,14 +412,14 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="row">
-                                        <div class="col-md-6">Please enter a word</div>
+                                        <div class="col-md-6">Please enter a word to check.</div>
                                         <div class="col-md-6">
-                                            <input id="sometext" type="text" name="name" value="" />
+                                            <input id="sometext" type="text" name="name" />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <button id="btn3">Check it</button>
+                                            <button id="button3">Check it!</button>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-top:5px;">
@@ -434,7 +429,7 @@
                                     </div>
                                     <div id="codePalindrome" class="row">
                                         <pre class="brush: js">
-                                        $("#btn3").click(function () {
+                                        $("#button3").click(function () {
                                          var someText = $("#sometext").val();
                                          var checkForPalindrome = someText.split('').reverse().join('');
                                          if (someText === checkForPalindrome) {

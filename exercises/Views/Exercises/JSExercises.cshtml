@@ -142,7 +142,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default" id="close" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -197,17 +197,20 @@
             fact = fact * i;
         }
         var result = fact;
-        $("#factorial").text("The factorial is " + result);
+            $("#factorial").text("The factorial is " + result);
+            $("#num").val("");
         })
 
         $("#btn3").click(function () {
             var someText = $("#sometext").val();
             var checkForPalindrome = someText.split('').reverse().join('');
-            if (someText === checkForPalindrome) {
-                $("#palindrome").text("The word is a palindrome!")
-            } else {
-                $("#palindrome").text("The word is not a palindrome!")
-            }
+           
+                if (someText === checkForPalindrome) {
+                    $("#palindrome").text("The word is a palindrome!");
+                } else {
+                    $("#palindrome").text("The word is not a palindrome!");
+                }
+           
         })
 
     </script>
